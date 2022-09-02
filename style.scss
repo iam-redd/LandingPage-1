@@ -6,7 +6,7 @@
     list-style-type: none;
 }
 .header-bkg{
-    background: url(.img/header.png) center center/cover no-repeat;
+    background: url(img/header.png) center center/cover no-repeat;
 }
 .wrapper{
     
@@ -436,4 +436,7 @@
     .card{
         margin-top: 30px;
     }
+}
+@media screen and (max-width: 420px){
+
 }
