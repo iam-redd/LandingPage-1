@@ -64,7 +64,7 @@
   width: 185px;
   height: 60px;
   color: #fff;
-  font-size: 16xp;
+  font-size: 16px;
   font-weight: 400;
   transition: 0.2s ease-in;
 }
@@ -211,7 +211,7 @@
 }
 .section-blog .grid .horizontal {
   width: 560px;
-  height: 400px;
+  height: 100%;
   text-align: start;
 }
 .section-blog .grid .horizontal h3 {
@@ -384,7 +384,6 @@
     align-items: center;
   }
   .grid .vertical {
-    margin-top: 270px;
     align-items: center;
   }
   .grid .vertical .vert-text {
@@ -407,5 +406,73 @@
   }
   .card {
     margin-top: 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .wrapper {
+    max-width: 420px;
+  }
+  .header {
+    max-width: 420px;
+    flex-direction: column;
+  }
+  .header .b-btn {
+    margin: 0;
+    width: 100%;
+  }
+  .header p {
+    width: 100%;
+  }
+  .header h1 {
+    margin-top: 100px;
+    font-size: 32px;
+  }
+  .header .nav-bar {
+    flex-direction: column;
+  }
+  .header .nav-bar .navigation {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .big.img {
+    max-width: 100%;
+  }
+  .footer {
+    width: auto;
+  }
+  .section-blog .grid .horizontal {
+    text-align: center;
+    width: 100%;
+  }
+  .section-blog .grid .horizontal .big-img {
+    width: 100%;
+  }
+  .section-blog .grid .vertical .vert-text {
+    text-align: center;
+  }
+  .section-blog .grid .vertical .mini-img {
+    width: 98%;
+  }
+  .section-blog .grid .vertical .vert-div {
+    display: block;
+    margin: 10px 0 0 0;
+    width: 98%;
+  }
+  .footer {
+    margin: 50px 0;
+  }
+  .footer .columns {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer .columns .first-column {
+    margin: 5px 0;
+  }
+  .footer .columns .first-column p {
+    margin: 5px 0;
+  }
+  .footer .columns .sec-column, .footer .columns .thr-column, .footer .columns .fou-column {
+    margin: 5px 0;
   }
 }/*# sourceMappingURL=style.css.map */
